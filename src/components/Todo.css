@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100vw;
+    height: 100em;
+    background-color: wheat;
+    padding: 5vw 0 0 30vw;
+}
+.head{
+    width: 40vw;
+    background-color: blueviolet;
+    text-align: center;
+}
+h1{
+    color: white;
+    padding: 40px 40px 0 40px;
+}
+.textbox{
+    width: 70%;
+    border: none;
+    padding: 3%;
+    margin: 5% 0 10% 0;
+    font-size: larger;
+}
+.textbox::placeholder{
+    color: blue;
+}
+.Add{
+    width: 15%;
+    padding: 3%;
+    border: none;
+    font-size: larger;
+    background-color: aquamarine;
+}
+.foot{
+    width: 40vw;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+input[type="checkbox"] {
+    width: 2em;
+    height: 2rem;
+    accent-color: pink;
+}  
+.output{
+    width: 80%;
+    text-align: left;
+    font-size: 25px;
+    padding: 10px;
+    
+}
+.delete{
+    width: 2em;
+    height: 2rem;
+    border: none;
+}
+@media screen and (max-width: 800px){
+    .body{
+        padding: 0;
+    }
+    .head{
+        width: 100vw;
+    }
+   
+    .foot{
+        width: 100vw;
+    }
+}
+
